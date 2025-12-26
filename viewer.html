@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Comic | Super Comics!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">SUPER COMICS!</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#comics">Back to Comics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container viewer-container" id="comic-viewer">
+        <h2 id="comic-title">Loading...</h2>
+
+        <div class="comic-display">
+            <img id="comic-page" src="" alt="Comic Page">
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn" class="btn btn-secondary">Previous</button>
+            <span id="page-indicator"
+                style="font-weight: bold; align-self: center; font-family: 'Fredoka One', cursive; color: var(--text);">Page
+                1</span>
+            <button id="next-btn" class="btn btn-primary">Next</button>
+        </div>
+
+        <br><br>
+        <a href="index.html" class="btn" style="color: var(--text); border: 2px solid var(--text);">Return Home</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span class="footer-logo">SUPER COMICS!</span>
+            <p>Made with ❤️ for kids everywhere. Always 100% Free.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

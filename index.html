@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Comics! | Free Fun for Kids</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">SUPER COMICS!</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#comics">Comics</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <a href="#comics" class="btn btn-primary">Start Reading!</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+
+            <div class="hero-box">
+                <h1>Welcome to Super Comics!</h1>
+                <p>The funniest, zaniest, and most adventurous place on the web! Join our heroes on epic journeys, laugh
+                    at silly jokes, and read as much as you want for FREE!</p>
+                <a href="#comics" class="btn btn-secondary">Explore Comics</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="comics" class="comics-section">
+        <div class="container">
+            <h2 class="section-title">Latest Adventures</h2>
+            <div class="grid" id="comic-grid">
+                <!-- Comics will be loaded here dynamically or statically for now -->
+                <!-- Card 1 -->
+                <div class="comic-card">
+                    <img src="comics/royal-space/page1.png" alt="Royal Space" class="comic-thumb">
+                    <div class="comic-info">
+                        <h3>Royal Space</h3>
+                        <p>A pickle in space! Will he survive?</p>
+                        <br>
+                        <a href="viewer.html?comic=royalspace" class="btn btn-primary">Read Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <img src="mascot.jpg" alt="Super Mascot" class="about-mascot">
+                <h2 class="section-title">About Super Comics!</h2>
+                <p>Hey there, future superhero! 🦸‍♂️🦸‍♀️</p>
+                <p>Super Comics is built just for YOU! We believe that reading should be super fun, super easy, and
+                    super FREE! Our mission is to bring clear, colorful, and engaging stories to kids all over the
+                    world.</p>
+                <p>So grab your cape, start reading, and let your imagination fly!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <span class="footer-logo">SUPER COMICS!</span>
+            <p>Made with ❤️ for kids everywhere. Always 100% Free.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
